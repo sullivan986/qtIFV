@@ -1,0 +1,2 @@
+# qtIFV
+QT basic exercises
