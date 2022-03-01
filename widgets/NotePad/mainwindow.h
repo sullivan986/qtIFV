@@ -3,6 +3,11 @@
 
 #include <QMainWindow>
 
+#include <QFile>
+#include <QFileDialog>
+#include <QTextStream>
+#include <QMessageBox>
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -16,6 +21,8 @@ public:
     ~MainWindow();
 
 private slots:
+
+    void action_new();
 
 private:
     Ui::MainWindow *ui;

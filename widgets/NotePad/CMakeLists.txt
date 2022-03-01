@@ -19,8 +19,13 @@ set(PROJECT_SOURCES
         mainwindow.ui
 )
 
+set(RESOURCES
+    resources.qrc
+)
+
 add_executable(NotePad
     ${PROJECT_SOURCES}
+    ${RESOURCES}
 )
 
 target_link_libraries(NotePad PRIVATE Qt5::Widgets)

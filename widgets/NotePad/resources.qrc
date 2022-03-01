@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/image/icon">
+        <file>resources/copy.svg</file>
+        <file>resources/new.svg</file>
+        <file>resources/open.svg</file>
+        <file>resources/c++.svg</file>
+    </qresource>
+</RCC>
